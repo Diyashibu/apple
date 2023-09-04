@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attire Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="images/shopping-bag-icon.png" alt="site icon">
+                <span class="text-uppercase fw-lighter ms-2">Apple</span>
+            </a>
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button"  data-bs-toggle="collapse" data-bs-target="#navMenu" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#header">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#collection">collection</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#specials">specials</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#about">about us</a>
+                    </li>
+                    
+                </ul>
+            </div>
+               
+            
+        </div>
+    </nav>
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner ">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">best collection</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new arrivals</h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">best price</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new season</h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>    
+    </header>
+    
+            </div>
+            <div class="container1">
+                <div class="collection-list mt-4 row gx-0 gy-3" style="background-color: black;">
+                    <div class="col-md-4 col-lg-4 col-xl-4 p-2 new">
+                        <div class="collection-img">
+                            <img src="images/img1.jpg" class="w-100 h-100" style="background-color: black;">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 p-2 new">
+                        <div class="collection-img">
+                            <img src="images/img2.jpg" class="w-100 h-100" style="background-color: black;">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-4 p-2 new">
+                        <div class="collection-img">
+                            <img src="images/img3.jpg" class="w-100 h-100" style="background-color: black;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">Apple Store</h2>
+            </div>
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="#">All</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".new">New Arrival</button>
+                </div>
+                <div class="collection-list mt-4 row gx-0 gy-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class="collection-img">
+                            <img src="images/iphone14.jpg" class="w-100 h-100 img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">iphone 14 pro</p>
+                            <span class="fw-bold">$1560.03</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/iphone14plus.jpg" class="w-100 h-100 img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">iphone 14 plus</p>
+                            <span class="fw-bold">$965.86</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class="collection-img">
+                            <img src="images/ipad10thgen.jpg" class=" img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">ipad</p>
+                            <p class="my-1">10th generation</p>
+                            <span class="fw-bold">$1560.03</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/iphone14plus.jpg" class="w-100 h-100 img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">iphone 13</p>
+                            <span class="fw-bold">$875.20</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/iphonese.jpg" class=" img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">iphone SE</p>
+                            <span class="fw-bold">$603.21</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/iphone13pro.jpg" class=" img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">iphone 13 pro</p>
+                            <span class="fw-bold">$1559.90</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/iphone13mini.jpg" class=" img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">iphone 13 mini</p>
+                            <span class="fw-bold">$737.62</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/ipadair.jpg" class=" img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">ipad air</p>
+                            <p class="my-1">5th generation</p>
+                            <span class="fw-bold">$905.71</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/ipadpro.jpg" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">ipad pro</p>
+                            <span class="fw-bold">$966.17</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/ipadmini.jpg" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">ipad pro</p>
+                            <span class="fw-bold">$586.11</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 new">
+                        <div class="collection-img">
+                            <img src="images/watchultra.jpg" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Apple watch ultra</p>
+                            <span class="fw-bold">$1027.72</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="collection-img">
+                            <img src="images/watchse.jpg" class="img-fluid">
+                        </div>
+                        <div class="text-center">
+                            <p class="text-capitalize my-1">Apple Watch SE</p>
+                            <span class="fw-bold">$435.32</span>
+                        </div>
+                    </div>
+                    
+                </div>
+        </div> 
+    </section>
+    <section id="specials" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Special</h2>
+            </div>
+            <div class="special-list row g-0">
+                <div class="col-md-0 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/iphone14.jpg" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">iphone 14 pro </p>
+                        <span class="fw-bold d-block">$1560.03</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to cart</a>
+                    </div>
+                </div>
+                <div class="col-md-0 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/ipadpro.jpg" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">ipad pro </p>
+                        <span class="fw-bold d-block">$965.86</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to cart</a>
+                    </div>
+                </div>
+                <div class="col-md-0 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/watchultra.jpg" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Apple Watch Ultra </p>
+                        <span class="fw-bold d-block">$785.63</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to cart</a>
+                    </div>
+                </div>
+                <div class="col-md-0 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="images/airpodspro2.jpg" class="w-100">
+                        <span class="position-absolute d-flex align-items-center justify-content-center text-primary fs-4"></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Airpods Pro 2nd Generation</p>
+                        <span class="fw-bold d-block">$193.40</span>
+                        <a href="#" class="btn btn-primary mt-3">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row gy-lg-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class="title pt-3 pb-5">
+                        <h2 class="position-relative d-inline-block ms-4">About Us</h2>
+                    </div>
+                    <p class="lead text-muted">Apple Inc. is a global technology giant headquartered in Cupertino, California. Founded in 1976 by Steve Jobs, Steve Wozniak, and Ronald Wayne, Apple has revolutionized the consumer electronics industry. The company is renowned for its iconic products, including the iPhone, iPad, Macintosh computers, and the Apple Watch. With a commitment to innovation, design excellence, and user-friendly interfaces, Apple has earned a loyal customer base worldwide. Beyond hardware, Apple's ecosystem includes software like iOS, macOS, and services such as Apple Music and iCloud, reinforcing its position as a leader in the tech industry.</p>
+                </div>
+                <div class="col-lg-6 order-lg-0">
+                    <img src="images/applehead.jpg" alt="" class="img-fluid image-same-size">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class = "bg-dark py-5">
+        <div class = "container">
+            <div class = "row text-white g-4">
+                <div class = "col-md-6 col-lg-3">
+                    <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Attire</a>
+                    <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light">Links</h5>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Collection
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Contact Us</h5>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            Albert Street, New York, AS 756, United States of America
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span class = "fw-light">
+                            apple.support@gmail.com
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            +9786 6776 236
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class = "list-unstyled d-flex">
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="code.jquery.com_jquery-3.7.1.js"></script>
+    <script type="module" src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script type="module" src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>

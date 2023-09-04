@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --grey: rgb(109, 109, 109);
+}
+body{
+    font-family: var(--sm-font);
+}
+.bg-primary{
+    background-color: var(--grey)!important;
+}
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover{
+    background-color: var(--grey);
+    color: #fff;
+    border-color: var(--grey);
+}
+.navbar{
+    box-shadow: 0 3px 9x 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img{
+    width:30px;
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link:hover{
+    color: var(--grey) !important;
+}
+.navitem{
+    border-bottom:0.5px solid rgba(0, 0, 0, 0.05)
+}
+
+#header{
+    background: url(images/bannerimg.jpg) top/cover no-repeat;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family:var(--lg-font);
+}
+.carousel-item .btn{
+    border-color: #fff !important;
+}
+.carousel-item .btn:hover{
+    border-color: var(--grey)!important;
+}
+.collection-img img {
+    width: 257.79px;
+    height: 332px;
+}
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--grey);
+    left: -20px;
+    top: 0%;
+    transform: translate(-50%);
+}
+.active-filter-btn{
+    background-color:var(--grey)!important;
+    color:#fff!important;
+    border-color: var(--grey)!important;
+}
+.collection-img span{
+    top:20px;
+    right: 20px;
+    width:46px;
+    height:46px;
+    border-radius: 50%;
+}
+.filter-button-group .btn:hover {
+    color: #fff!important;
+}
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px !important;
+}
+.special-img img{
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    transform: scale(1.2);
+}
+.image-same-size {
+    width: 100%;
+    height: auto;
+}
+
+@media(min-width:992px){
+    .navitem{
+        border-bottom: none;
+    }
+}
